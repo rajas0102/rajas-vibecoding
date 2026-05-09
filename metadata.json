@@ -1,0 +1,8 @@
+{
+  "name": "StyleMatch AI",
+  "description": "AI Fashion Stylist application matching Indonesian user's body type and contextual events.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

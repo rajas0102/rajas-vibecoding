@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Urbanist", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #f59e0b;
+  --color-primary-dark: #d97706;
+}
+
+@layer utilities {
+  .mobile-container {
+    @apply max-w-md mx-auto min-h-[100dvh] bg-stone-50 shadow-2xl relative overflow-hidden flex flex-col font-sans text-stone-800;
+  }
+}
